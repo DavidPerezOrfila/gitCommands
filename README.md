@@ -50,7 +50,7 @@
 
 > ### - Crear un fichero **_.gitkeep_** dentro de una carpeta vacía para forzar a GIT a añadirla al stage
 
-> >![gitkeep](./gitkeep.png)
+> ![gitkeep](gitkeep.png)
 
 > ### - Crear un **alias** global "**_s_**" para realizar un `git status` en su forma corta
 
@@ -110,11 +110,11 @@
 > ```
 > git mv destruir-mundo.md salvar-mundo.md
 > ```
-> >![salvar-mundo](./salvar-mundo.png)
+> ![salvar-mundo](salvar-mundo.png)
 
 > ### - Eliminar un fichero con **GIT**
 > #### (no lo elimina del stage)
 > ```
 > git rm salvar-mundo.md
 > ```
-> >![salvar-mundoGITrm](./salvar-mundoGITrm.png)
+> ![salvar-mundoGITrm](salvar-mundoGITrm.png)

@@ -118,3 +118,21 @@
 > git rm salvar-mundo.md
 > ```
 > ![salvar-mundoGITrm](https://github.com/DavidPerezOrfila/gitCommands/blob/master/img/salvar-mundoGITrm.PNG?)
+
+## Ramas y uniones
+> ### - Moverse a otra rama
+> ```
+> git checkout nombreRama
+> ```
+> ### - Fusionar rama con principal
+> ```
+> git merge nombreRama
+> ```
+> ### - Eliminar rama
+> ```
+> git branch -d nombreRama
+> ```
+> ### - Crear una rama y moverse a ella
+> ```
+> git checkout -b nombreRama
+> ```

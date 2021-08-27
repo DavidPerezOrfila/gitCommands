@@ -136,3 +136,27 @@
 > ```
 > git checkout -b nombreRama
 > ```
+
+## Tags
+> ### - Crear una etiqueta
+> ```
+> git tag nombreEtiqueta
+> ```
+
+> ### - Eliminar una etiqueta
+> ```
+> git tag -d nombreEtiqueta
+> ```
+> ### - Añadir una etiqueta con anotación y mensaje personalizado
+> ```
+> git tag -a nombreVersión -m "mensaje personalizado"
+> ```
+> ### - Añadir una etiqueta con anotación, hash de un commit y mensaje personalizado
+> ```
+> git tag -a nombreVersión hash -m "mensaje personalizado"
+> ```
+
+> ### - Visualizar información de una etiqueta
+> ```
+> git show versionEtiqueta(p.ej: v.0.1.0)
+> ```
